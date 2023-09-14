@@ -1,0 +1,7 @@
+{
+  "id": "#{id}",
+  "apelido": "#{apelido}",
+  "nome": "#{nome}",
+  "nascimento": "#{nascimento}",
+  "stack": "#{stack}"
+}

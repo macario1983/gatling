@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'io.gatling.gradle' version '3.9.5.5'
+}
+
+gatling {
+    logLevel = 'INFO' // logback root level
+    logHttp = 'NONE' // set to 'ALL' for all HTTP traffic in TRACE, 'FAILURES' for failed HTTP traffic in DEBUG
+}
+
+dependencies {
+    gatlingImplementation 'net.datafaker:datafaker:2.0.1'
+}
+
+repositories {
+    mavenCentral()
+}
